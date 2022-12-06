@@ -10,4 +10,3 @@ for sack in sacks:
         total += ord(res)-ord("a")+1
     
 print(total)
-

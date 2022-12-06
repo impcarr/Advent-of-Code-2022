@@ -15,4 +15,3 @@ for s1, s2, s3 in grouper(3,sacks):
         total += ord(res)-ord("a")+1
     
 print(total)
-

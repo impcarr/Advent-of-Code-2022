@@ -11,4 +11,3 @@ for line in lines:
             max = curr
         curr = 0
 print(max)
-

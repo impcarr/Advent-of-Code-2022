@@ -10,7 +10,6 @@ for line in start:
     for i in range(len(line)):
         if(i % 4 == 1 and line[i] != " "):
             boxes[ceil(i/4)].append(line[i])
-#print(boxes[1:])
 
 moves = open("input.txt", "r").read().splitlines()
 for move in moves:
@@ -18,10 +17,8 @@ for move in moves:
     temp = deque()
     for i in range(num):
         temp.append(boxes[src].pop())
-        
     for i in range(len(temp)):
         boxes[dest].append(temp.pop())
-    #print(boxes[1:])
 sub = ""
 for box in boxes:
     sub += box.pop()

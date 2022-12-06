@@ -1,11 +1,6 @@
-from enum import Enum
-
-
-
 points = {"X":1, "Y":2, "Z":3, "W":6, "D":3, "L":0}
 
 calc = {"X":0b100, "Y":0b101, "Z":0b110, "A":0b000, "B":0b001, "C":0b010}
-
 
 def get_score(moves):
     m2,m1 = moves.split()
